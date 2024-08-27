@@ -1,0 +1,36 @@
+.home-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.home-animation {
+  text-align: center;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.launch-button {
+  background-color: #7cc9d6;
+  color: #000;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.launch-button:hover {
+  background-color: #7cc9d6;
+  color:#fff 
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

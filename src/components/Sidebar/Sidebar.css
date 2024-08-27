@@ -1,0 +1,23 @@
+/* Navbar.css */
+
+.logo {
+  height: 70px;
+  width: 170px;
+  margin-left: 20px;
+}
+
+.drawer {
+  width: 250px;
+}
+
+.listItem {
+  padding: 16px;
+}
+
+.appBar {
+  background-color: #f0f2f5; /* Custom color for AppBar */
+}
+
+.menuButton {
+  margin-right: 16px;
+}
