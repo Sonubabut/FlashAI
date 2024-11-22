@@ -1,4 +1,4 @@
-export const API_URL = "https://gcp-demo-node-3tczl25ztq-uc.a.run.app";
+export const API_URL = "https://gcp-flash-node-713269396353.us-central1.run.app";
 
 /**
  * Sends a POST request to the backend to get a response from the AI.
@@ -7,7 +7,7 @@ export const API_URL = "https://gcp-demo-node-3tczl25ztq-uc.a.run.app";
  */
 export const getAIResponse = async (question) => {
   try {
-    const response = await fetch(`${API_URL}/fast/response`, {
+    const response = await fetch(`${API_URL}/flash/response`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
